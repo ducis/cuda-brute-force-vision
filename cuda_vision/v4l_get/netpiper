@@ -1,0 +1,1 @@
+./piper vid_shm_0 d | nc -lp 12345

@@ -1,0 +1,19 @@
+Package: unzip
+Version: 6.0-4
+Architecture: amd64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 408
+Depends: libbz2-1.0, libc6 (>= 2.3)
+Suggests: zip
+Conflicts: unzip-crypt (<< 5.41)
+Replaces: unzip-crypt (<< 5.41)
+Section: utils
+Priority: optional
+Homepage: http://www.info-zip.org/UnZip.html
+Description: De-archiver for .zip files
+ InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+ .
+ This version supports encryption.

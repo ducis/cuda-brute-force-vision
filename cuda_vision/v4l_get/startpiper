@@ -1,0 +1,2 @@
+./piper vid_shm_0 d > /dev/null
+

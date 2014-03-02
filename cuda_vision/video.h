@@ -1,0 +1,3 @@
+struct vid_ctrl{
+
+};

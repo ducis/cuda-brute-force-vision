@@ -1,0 +1,4 @@
+./vg /dev/video0 vid_shm_0 d &
+sleep 0.5
+./piper vid_shm_0 d > /dev/null
+

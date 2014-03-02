@@ -1,0 +1,2 @@
+./vg /dev/video0 vid_shm_0 d&
+

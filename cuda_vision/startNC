@@ -1,0 +1,3 @@
+#!/bin/bash
+nc -lp 12345 < cv-nc-video &
+nc -lp 12346 < cv-nc-motion &
